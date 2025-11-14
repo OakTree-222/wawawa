@@ -1,0 +1,86 @@
+header, footer{
+    background-color: orangered;
+    color: wheat;
+    width: 100%;
+ padding: 30px;
+ margin:20px;
+    text-align: center;
+}
+
+a{
+    color: wheat;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color .5s ease, font-size .5s ease;
+}
+
+a:hover{
+    color: orangered;
+    background-color: wheat;
+    border-radius: 9px;
+    cursor: url(icons8-fox-50.png), auto;
+    font-size: 40px;
+}
+.gfont {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.gfont2{
+  font-family: "Dokdo", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+ color: wheat;
+}
+
+.gfont3 {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  background-color: wheat;
+}
+
+.font{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 550;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+body{
+    background-image: url(fox-background-l7obi9lezhtx235l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+dd{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 525;
+    font-size: 13px
+}
+
+caption, table, th, td{
+    border: 1px solid ;
+    text-align: center;
+    background-color: rgb(253, 117, 68);
+}
+
+.wawa{
+    size: 10px;
+}
+
+.img{
+display: flex;
+justify-content: center;
+}
+
+.img2{
+display: flex;
+justify-content: center;
+}
